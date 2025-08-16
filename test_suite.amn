@@ -1,0 +1,14 @@
+# Comprehensive test file for AMN 2.1 System Verification
+
+Tempo: 100
+TimeSig: 4/4
+GraceStyle: t 0.85
+
+[Track: Piano]
+# Test case with multiple voices, chords, rests, and an inline tempo change.
+(Voice 1) <C4 E4 G4>:h R:q C5:q | (Tempo: 120) E5:h. g(D#5) E5:e F5:e |
+(Voice 2) C3:w | G3:w |
+
+[Track: Flute]
+# Test case with tuplets and ornaments.
+C5:q 3:2{A4:e B4:e C5:e} G5:q(tr) R:q |
